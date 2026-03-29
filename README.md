@@ -20,11 +20,17 @@ API Gateway.
 
 ## How to Run
 Terminal 1: cd product_service      && uvicorn main:app --reload --port 8001
+
 Terminal 2: cd customer_service     && uvicorn main:app --reload --port 8002
+
 Terminal 3: cd order_service        && uvicorn main:app --reload --port 8003
+
 Terminal 4: cd inventory_service    && uvicorn main:app --reload --port 8004
+
 Terminal 5: cd payment_service      && uvicorn main:app --reload --port 8005
+
 Terminal 6: cd notification_service && uvicorn main:app --reload --port 8006
+
 Terminal 7: cd api_gateway          && uvicorn main:app --reload --port 8000
 
 ## Swagger UI
