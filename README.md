@@ -29,9 +29,15 @@ Terminal 7: cd api_gateway          && uvicorn main:app --reload --port 8000
 
 ## Swagger UI
 http://localhost:8000/docs - API Gateway (all 30 routes)
+
 http://localhost:8001/docs - Product Service
+
 http://localhost:8002/docs - Customer Service
+
 http://localhost:8003/docs - Order Service
+
 http://localhost:8004/docs - Inventory Service
+
 http://localhost:8005/docs - Payment Service
+
 http://localhost:8006/docs - Notification Service
