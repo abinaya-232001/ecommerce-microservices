@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 
-from .data import orders
-from .models import Order
+from data import orders
+from models import Order
 
 app = FastAPI(title="Order Service")
 
